@@ -8,15 +8,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 900px;
-    height: 1400px;
     margin: 0 auto;
-    border: 4px solid #E35757;
+    border: 3px solid #E35757;
     background-image: url(/images/parch.jpg);
 }
 /* the styles for the header */
 header {
     padding: 1.25em 0 1.75em ;
-    border-bottom: 4px solid #E35757;    
+    border-bottom: 3px solid #E35757;    
 	background-image: -moz-linear-gradient(
 	    30deg, #607C4D 0%, #607C4D 30%, white 50%, #607C4D 80%, #607C4D 100%);
 	background-image: -webkit-linear-gradient(
@@ -53,51 +52,43 @@ header img {
 #nav_menu a.current {
     color: #538135
 }
-/* styles for the body elements */
-#storefront {
-    height: 450px;
-    width: 650px;
-    margin-left: 125px;
-    margin-top: -185px;
+/* the styles for the body */
+body h2 {    
     border: solid 4px;
     border-color: #A9D18E;
+    padding: 10px 10px 10px 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 40px;
+    color: #E35757;
+    margin-left: 350px;
+    margin-top: -170px
 }
-#map {
-    height:350px;
-    width: 300px;
-    margin-left: 125px;
-    margin-top: 10px;
-    border: solid 4px #A9D18E;
+#donuts {
+    margin-left: 85px;
+    border-radius: 25px;
 }
-body h2 {
+#menu {
     border: solid 4px #A9D18E;
-    height: 350px;
-    width: 300px;
-    font-size: 21px;
+    width: 750px;
+    margin-left: 33px;
+}
+figure h3 {
     font-family: sans-serif;
     color: #E35757;
-    margin-left: 475px;
-    margin-top: -361px;
 }
-#veterans {
-    margin-right: 120px;
-    border: solid 3px #A9D18E;
-    float: right;
+figure h4 {
+    font-family: serif;
+    font-size: 17px;
 }
-#video {
-    border: solid 3px #A9D18E;
-    margin-left: 25px;
-    margin-bottom: 25px;
+#topsellers {
+    margin-top: 200px;
+    width: 750px;
+    margin-left: 33px;
+    text-align: center;
 }
-/* styles for the aside elements */
-aside h3 {
-    border: solid 3px #A9D18E;
-    color: #E35757;
-    width: 305px;
-    height: 100px;
-    padding-top: 3px;
-    padding-left: 2px;
-    font-weight: bold;
-    margin-left: 475px;
-    margin-top: -75px
+figure h2 {
+    font-size: 23px;
+    border: none;
+    
 }

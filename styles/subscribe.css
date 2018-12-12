@@ -8,7 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 900px;
-    height: 1400px;
     margin: 0 auto;
     border: 4px solid #E35757;
     background-image: url(/images/parch.jpg);
@@ -53,51 +52,59 @@ header img {
 #nav_menu a.current {
     color: #538135
 }
-/* styles for the body elements */
-#storefront {
-    height: 450px;
-    width: 650px;
-    margin-left: 125px;
-    margin-top: -185px;
-    border: solid 4px;
-    border-color: #A9D18E;
-}
-#map {
-    height:350px;
-    width: 300px;
-    margin-left: 125px;
-    margin-top: 10px;
+/* the styles for the body elements */
+body h2 {    
     border: solid 4px #A9D18E;
-}
-body h2 {
-    border: solid 4px #A9D18E;
-    height: 350px;
-    width: 300px;
-    font-size: 21px;
-    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
     color: #E35757;
-    margin-left: 475px;
-    margin-top: -361px;
+    margin-left: 350px;
+    margin-top: -170px;
 }
-#veterans {
-    margin-right: 120px;
+/* the styles for the aside elements */
+aside {
+    margin-left: 175px;
+    margin-top: 100px;
     border: solid 3px #A9D18E;
-    float: right;
+    width: 575px;
+    background-color: white;
 }
-#video {
-    border: solid 3px #A9D18E;
-    margin-left: 25px;
-    margin-bottom: 25px;
-}
-/* styles for the aside elements */
 aside h3 {
-    border: solid 3px #A9D18E;
     color: #E35757;
-    width: 305px;
-    height: 100px;
-    padding-top: 3px;
-    padding-left: 2px;
-    font-weight: bold;
-    margin-left: 475px;
-    margin-top: -75px
+    font-size: 25px;
+    padding-left: 3px;
+}
+aside h4 {
+    color: #E35757;
+    font-weight: 500;
+    padding-left: 3px;
+}
+aside label {
+    color: #E35757;
+    font-size: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+aside input {
+    width: 350px;
+    height: 30px;
+}
+#submit {
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    border: solid 3px #E35757;
+    background-color: #A9D18E;
+    color: #E35757;
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 10px
+}
+#family {
+    border: solid 3px #A9D18E;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }

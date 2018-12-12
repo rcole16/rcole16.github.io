@@ -8,7 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 900px;
-    height: 1400px;
     margin: 0 auto;
     border: 4px solid #E35757;
     background-image: url(/images/parch.jpg);
@@ -53,51 +52,42 @@ header img {
 #nav_menu a.current {
     color: #538135
 }
-/* styles for the body elements */
-#storefront {
-    height: 450px;
-    width: 650px;
-    margin-left: 125px;
-    margin-top: -185px;
-    border: solid 4px;
-    border-color: #A9D18E;
-}
-#map {
-    height:350px;
-    width: 300px;
-    margin-left: 125px;
-    margin-top: 10px;
-    border: solid 4px #A9D18E;
-}
+/* Styles for the body elements */
 body h2 {
     border: solid 4px #A9D18E;
-    height: 350px;
-    width: 300px;
-    font-size: 21px;
+    padding: 10px 10px 10px 10px;
+    width: 190px;
+    text-align: center;
+    font-size: 40px;
+    color: #E35757;
+    margin-left: 350px;
+    margin-top: -170px
+}
+#bakers {
+    border-radius: 25px;
+    margin-top: 90px;
+    display: block;
+}
+#story {
+    border: solid 4px #A9D18E;
+    width: 375px;
     font-family: sans-serif;
-    color: #E35757;
-    margin-left: 475px;
-    margin-top: -361px;
+    font-size: 19px;
+    color: #E35757
 }
-#veterans {
-    margin-right: 120px;
-    border: solid 3px #A9D18E;
+#fire {
     float: right;
+    25px;
+    border-radius: 25px;
+    margin-left: 440px;
+    margin-top: -775px
 }
-#video {
-    border: solid 3px #A9D18E;
-    margin-left: 25px;
-    margin-bottom: 25px;
-}
-/* styles for the aside elements */
-aside h3 {
-    border: solid 3px #A9D18E;
+#firestory {
+    float: right;
+    border: solid 4px #A9D18E;
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 19px;
     color: #E35757;
-    width: 305px;
-    height: 100px;
-    padding-top: 3px;
-    padding-left: 2px;
-    font-weight: bold;
-    margin-left: 475px;
-    margin-top: -75px
+    margin-top: -467px;
 }

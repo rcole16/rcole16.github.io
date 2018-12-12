@@ -1,0 +1,150 @@
+/*styles for the elemets*/
+html {
+    background-repeat: repeat;
+    background-image: url(/images/background.jpg);
+    background-size: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 900px;
+    height: 1040px;
+    margin: 0 auto;
+    border: 4px solid #E35757;
+    background-image: url(/images/parch.jpg);
+}
+/* the styles for the header */
+header {
+    padding: 1.25em 0 1.75em ;
+    border-bottom: 4px solid #E35757;    
+	background-image: -moz-linear-gradient(
+	    30deg, #607C4D 0%, #607C4D 30%, white 50%, #607C4D 80%, #607C4D 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #607C4D 0%, #75985E 30%, white 50%, #75985E 80%, #607C4D 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #607C4D 0%, #75985E 30%, white 50%, #75985E 80%, #607C4D 100%);
+	background-image: linear-gradient(
+	    30deg, #607C4D 0%, #75985E 30%, #9FB98D 50%, #75985E 80%, #607C4D 100%);
+}
+header h1 {
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+    color: #E35757;
+}
+header img {
+    float: left;
+    padding-left: 10px;
+}
+/* the styles for the navigation menu */
+#nav_menu ul {
+    list-style-type: none;
+    margin: 5px -25px;
+    position: relative;
+}
+#nav_menu ul li a {
+    display: block; text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #E35757;
+    padding-bottom: 15px;
+}
+#nav_menu a.current {
+    color: #538135
+}
+/* styles for the body elements */
+body h2 {    
+    border: solid 4px #A9D18E;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    color: #E35757;
+    margin-left: 350px;
+    margin-top: -170px
+}
+/* styles for the aside elements */
+#hours {
+    width: 220px;
+    height: 230px;
+    border: solid 3px #A9D18E;
+    margin-left: 165px;
+    text-align: center; 
+}
+aside h3 {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: #E35757;
+    font-weight: 725;
+}
+aside h4 {
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: 530;
+}
+#contactinfo {
+    border: solid 3px #A9D18E;
+    width: 400px;
+    margin-left: 430px;
+    margin-top: -200px;
+    padding-left: 2%;
+}
+#location {
+    border: solid 3px #A9D18E;
+    width: 305px;
+    height: 415px;
+    margin-top: 75px;
+    margin-left: 82px;
+}
+figure h3 {
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #E35757;
+    font-weight: 650;
+    padding-left: 2%;
+}
+#map {
+    height: 200px
+}
+#facebook {
+    float: right;
+    display: block;
+    margin-top: -475px;
+    margin-right: 300px;
+}
+#twitter {
+    float: right;
+    display: block;
+    margin-top:-463px;
+    margin-right: 200px;
+}
+#instagram {
+    float: right;
+    display: block;
+    margin-top:-463px;
+    margin-right: 90px;
+}
+#comments {
+    width: 406px;
+    height: 392px;
+    float: right;
+    margin-top: -375px;
+    border: solid 3px #E35757;
+    background-color: #A9D18E
+}
+#textbox {
+    width: 400px;
+    height: 323px;
+}
+#submit {
+    border: solid 3px #E35757;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    font-family: helvetica;
+    float: right;
+    margin-right: 20px;
+    margin-top:-47px;
+    
+}

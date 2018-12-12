@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130457847-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130457847-1');
+</script>
+
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
-    
+    <header>
+        <img src="images/logo.png" alt="Donut Delights logo"
+             height="80"><h1>The finest in breakfast treats and coffees since 1971</h1>
+    </header>
+<nav id="nav_menu">
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="menu.html">Menu</a></li>
+    	<li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+    	<li><a href="subscribe.html">Subscribe</a></li>
+    </ul>
+    </nav>
+<h2>Contact</h2>
+<aside id=hours>
+    <h3>Hours</h3>
+<h4>Monday: 6am-8pm<br>
+Tuesday: 6am-8pm<br>
+Wednesday: 6am-8pm<br>
+Thursday: 6am-8pm<br>
+Friday: 6am-9pm<br>
+Saturday: 6am-9pm<br>
+Sunday: 6am-7pm
+    </h4>
+    </aside>
+<aside id=contactinfo>
+    <h3>Email:<br>donutdelightcontact@gmail.com<br><br>Phone:<br>(217)-555-1234</h3>
+</aside>
+<figure id=location>
+    <h3>Located at:<br>2112 West Main Street.<br>Urbana, Illinois</h3>
+    <figcaption id=map>
+        <iframe style="height: 300px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.248027070304!2d-88.22868718431774!3d40.11447578188975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd76a77607879%3A0xabcbde07e6508b09!2s2112+W+Main+St%2C+Urbana%2C+IL+61801!5e0!3m2!1sen!2sus!4v1544405179368" allowfullscreen></iframe>
+    </figcaption>
+    </figure>
+<img id=facebook src="images/facebook.png" alt="facebook icon" width="100">
+<img id=twitter src="images/twitter.png" alt="twitter icon" width="77">
+<img id=instagram src="images/instagram.png" alt="instagram icon" width="77">
+<figure id=comments>
+<h3 style="width: 275px">Leave us a comment below!</h3>
+<form action="https://formspree.io/your@email.com" method="POST">
+<input type="submit" id="submit" value="Submit">
+<figcaption id="textbox">
+    <textarea name="comments" id="textbox"></textarea>
+    </figcaption>
+    </form>
+</figure>
 </body>
 </html>

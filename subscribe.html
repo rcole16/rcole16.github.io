@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130457847-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130457847-1');
+</script>
+
     <meta charset="UTF-8">
     <title>Subscribe</title>
+    <link rel="stylesheet" href="styles/subscribe.css">
 </head>
 <body>
-    
+    <header>
+        <img src="images/logo.png" alt="Donut Delights logo"
+             height="80"><h1>The finest in breakfast treats and coffees since 1971</h1>
+    </header>
+<nav id="nav_menu">
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="menu.html">Menu</a></li>
+    	<li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    	<li><a href="subscribe.html" class="current">Subscribe</a></li>
+    </ul>
+    </nav>
+<h2>Subscribe</h2>
+<aside id=subbox>
+    <h3>Subscribe to our Newsletter!</h3>
+<h4>For monthly coupons, specials, and events, enter your name and email below!
+</h4>
+    <form action="https://formspree.io/your@email.com" method="POST">
+    <label for="name">
+    Name
+    </label>
+    <input type="text">
+    <br><br>
+    <label for="email">Email   </label>
+    <input type="email">
+    <input id=submit type="submit" value="Submit">
+    </form>
+</aside>
+<img id=family src="images/family.jpg" style="width: 600px">
 </body>
 </html>
